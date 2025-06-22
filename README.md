@@ -15,5 +15,24 @@ curl -fsSL https://raw.githubusercontent.com/yanas-logs/nano-html-template/main/
 
 ### Manual
 Add this to your ~/.bashrc
+```bash
+nano.html() {
+    local file="${1:-untitled.html}"
+    cat <<EOF > "$file"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+EOF
+    nano "$file"
+}
+```
 
 
