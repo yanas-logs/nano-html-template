@@ -11,3 +11,9 @@ A shell function to instantly create HTML files with proper boilerplate and open
 ### Automatic (recommended)
 ```bash
 curl -fsSL https://raw.githubusercontent.com/yanas-logs/nano-html-template/main/install.sh | bash
+```
+
+### Manual
+Add this to your ~/.bashrc
+
+
