@@ -51,5 +51,6 @@ PRs welcome! Please:
 - Keep it shell-agnostic (Bash compatible)
 - Maintain minimal dependencies
 
-
+### License
+MIT
 
