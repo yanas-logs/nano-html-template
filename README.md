@@ -40,5 +40,16 @@ Then reload your shell:
 source ~/.bashrc
 ```
 
+### Usage:
+```bash
+nano.html              # Creates untitled.html
+nano.html index.html   # Creates specific file
+nano.html ../test.html # Can specify paths
+```
+### Contributing
+PRs welcome! Please:
+- Keep it shell-agnostic (Bash compatible)
+- Maintain minimal dependencies
+
 
 
