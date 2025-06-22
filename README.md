@@ -6,3 +6,8 @@ A shell function to instantly create HTML files with proper boilerplate and open
 - Opens directly in nano for editing
 - Works in Bash Shell
 
+## Installation
+
+### Automatic (recommended)
+```bash
+curl -fsSL https://raw.githubusercontent.com/yourusername/nano-html-template/main/install.sh | bash
