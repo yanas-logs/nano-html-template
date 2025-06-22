@@ -35,4 +35,10 @@ EOF
 }
 ```
 
+Then reload your shell:
+```bash
+source ~/.bashrc
+```
+
+
 
